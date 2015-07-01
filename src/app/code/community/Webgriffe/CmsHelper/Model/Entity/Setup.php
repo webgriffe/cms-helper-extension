@@ -6,7 +6,7 @@
  * Time: 17:21
  */
 
-class Webgriffe_CmsHelper_Model_Entity_Setup extends Mage_Core_Model_Resource_Setup
+class Webgriffe_CmsHelper_Model_Entity_Setup extends Mage_Eav_Model_Entity_Setup
 {
     /**
      * @param $identifier
