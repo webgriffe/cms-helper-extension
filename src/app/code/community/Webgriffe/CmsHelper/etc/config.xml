@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgriffe_CmsHelper>
+            <version>1.0.0</version>
+        </Webgriffe_CmsHelper>
+    </modules>
+    <global>
+        <models>
+            <webgriffe_cmshelper>
+                <class>Webgriffe_CmsHelper_Model</class>
+                <resourceModel>webgriffe_cmshelper_resource</resourceModel>
+            </webgriffe_cmshelper>
+            <webgriffe_cmshelper_resource>
+                <class>Webgriffe_CmsHelper_Model_Resource</class>
+            </webgriffe_cmshelper_resource>
+        </models>
+        <blocks>
+            <webgriffe_cmshelper>
+                <class>Webgriffe_CmsHelper_Block</class>
+            </webgriffe_cmshelper>
+        </blocks>
+        <helpers>
+            <webgriffe_cmshelper>
+                <class>Webgriffe_CmsHelper_Helper</class>
+            </webgriffe_cmshelper>
+        </helpers>
+        <resources>
+            <webgriffe_cmshelper_setup>
+                <setup>
+                    <module>Webgriffe_CmsHelper</module>
+                </setup>
+            </webgriffe_cmshelper_setup>
+        </resources>
+    </global>
+</config>

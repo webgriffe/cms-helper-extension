@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgriffe_CmsHelper>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Webgriffe_CmsHelper>
+    </modules>
+</config>
